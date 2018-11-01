@@ -1,4 +1,4 @@
-# Laravel 5.5+ Frontend preset for Stimulus
+# Laravel 5.5+ frontend preset for Stimulus
 
 This package makes it easy to use [Stimulus](https://stimulusjs.org/), a modest JavaScript framework for the HTML you already have, with Laravel 5.5+.
 
@@ -41,7 +41,7 @@ The Stimulus controllers defined in `resources/assets/js/controllers` (or `resou
 
 > **Note:** After updating your defined Stimulus controllers, remember to rebuild your frontend assets to reflect your changes.
 
-Your Stimulus controllers will be included in your project automatically via Webpack's `require.context` feature and a Stimulus helper. If your not using Laravel Mix or other Webpack-based build tools, review the Stimulus Handbook for [alternative integration steps](https://stimulusjs.org/handbook/installing).
+Your Stimulus controllers will be included in your project automatically via Webpack's `require.context` feature and a Stimulus helper. If you're not using Laravel Mix or other Webpack-based build tools, review the Stimulus Handbook for [alternative integration steps](https://stimulusjs.org/handbook/installing).
 
 Stimulus operates based on HTML data attributes, so update your view(s) to make use of your defined Stimulus controllers. For the default `hello-controller`, the necessary HTML would look similar to:
 
