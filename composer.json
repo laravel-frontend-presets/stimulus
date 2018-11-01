@@ -1,0 +1,21 @@
+{
+    "name": "laravel-frontend-presets/stimulus",
+    "description": "Laravel 5.5+ Front-end preset for Stimulus",
+    "keywords": ["laravel", "preset", "stimulus"],
+    "license": "MIT",
+    "require": {
+        "laravel/framework": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelFrontendPresets\\StimulusPreset\\": "src/"
+        }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "LaravelFrontendPresets\\StimulusPreset\\StimulusPresetServiceProvider"
+       ]
+      }
+    }
+}
