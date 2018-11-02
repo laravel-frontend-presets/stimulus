@@ -5,13 +5,13 @@
  * building robust, powerful web applications using Stimulus and Laravel.
  */
 
-require('./bootstrap');
+import './bootstrap';
 
-const Turbolinks = require("turbolinks");
+import Turbolinks from 'turbolinks';
 Turbolinks.start();
 
-const { Application } = require('stimulus');
-const { definitionsFromContext } = require('stimulus/webpack-helpers');
+import { Application } from 'stimulus';
+import { definitionsFromContext } from 'stimulus/webpack-helpers';
 
 /**
  * Next, we will create a fresh Stimulus application instance and autoload

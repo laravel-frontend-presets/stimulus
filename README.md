@@ -14,7 +14,7 @@ Read more on [the origin of Stimulus](https://stimulusjs.org/handbook/origin).
 
 ## Installation/Usage
 
-To install this preset on your laravel application, simply run:
+To install this preset on your Laravel application, simply run:
 
 ```bash
 composer require laravel-frontend-presets/stimulus
